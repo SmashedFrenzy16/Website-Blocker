@@ -37,7 +37,7 @@ while True:
 
     if datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8) < datetime.now() < datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8):
 
-        with open(path, "w") as web_file:
+        with open(path, "r+") as web_file:
 
             contents = web_file.read()
 
@@ -53,7 +53,7 @@ while True:
     
     else:
 
-        with open(path, "w") as web_file:
+        with open(path, "r+") as web_file:
 
             contents = web_file.readlines()
 
