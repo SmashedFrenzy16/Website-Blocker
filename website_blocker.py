@@ -35,7 +35,7 @@ redirect = "127.0.0.1"
 
 while True:
 
-    if datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8) < datetime.now() < datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8):
+    if datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8) < datetime.now() < datetime(datetime.now().year, datetime.now().month, datetime.now().day, 16):
 
         with open(path, "r+") as web_file:
 
