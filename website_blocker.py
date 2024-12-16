@@ -14,7 +14,7 @@ Windows: C:\Windows\System32\drivers\etc\hosts
 Mac & Linux: /etc/hosts
 """
 
-h_path = "C:\Windows\System32\drivers\etc\hosts"
+h_path = "ENTER HOSTS FILE PATH HERE"
 
 redirect = "127.0.0.1"
 
