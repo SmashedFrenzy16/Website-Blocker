@@ -27,7 +27,9 @@ python3 website_blocker.py
 
 ## Additional Notes
 
-Please comment out the following lines if you are **not** running this program on Windows:
+- Replace `"ENTER HOSTS FILE PATH HERE"` on line 17 with your hosts path.
+
+- Please comment out the following lines if you are **not** running this program on Windows:
 
 ```
 import pywinstyles
@@ -43,4 +45,4 @@ if platform.system() == "Windows":
 
             pywinstyles.change_header_color(root, "#000000")
 ```
-(Lines 74 - 80)
+(Lines 81 - 87)
