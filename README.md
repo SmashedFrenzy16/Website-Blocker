@@ -27,3 +27,20 @@ python3 website_blocker.py
 
 ## Additional Notes
 
+Please comment out the following lines if you are **not** running this program on Windows:
+
+```
+import pywinstyles
+```
+(Line 6)
+
+```
+if platform.system() == "Windows":
+
+    if sys.getwindowsversion().major == 10 and sys.getwindowsversion().build >= 22000:
+
+        if sv_ttk.get_theme() == "dark":
+
+            pywinstyles.change_header_color(root, "#000000")
+```
+(Lines 74 - 80)
