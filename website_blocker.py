@@ -6,6 +6,13 @@ import sys
 import pywinstyles
 import darkdetect
 
+"""
+Hosts Paths On Windows, Mac & Linux:
+
+Windows: C:\Windows\System32\drivers\etc\hosts
+
+Mac & Linux: /etc/hosts
+"""
 
 h_path = "C:\Windows\System32\drivers\etc\hosts"
 
