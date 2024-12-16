@@ -24,3 +24,6 @@ Mac & Linux:
 ```
 python3 website_blocker.py
 ```
+
+## Additional Notes
+
