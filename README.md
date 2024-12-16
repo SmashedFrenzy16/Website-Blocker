@@ -6,6 +6,11 @@ This is a website blocker made in Python. Get long needed peace from common dist
 
 ## Prerequisites
 
+- `sv_ttk` - `pip install sv_ttk`
+- `pywinstyles` - `pip install pywinstyles` (THIS MODULE IS ONLY REQUIRED FOR WINDOWS)
+- `darkdetect` - `pip install darkdetect`
+
+
 ## Run Program
 
 Windows:
